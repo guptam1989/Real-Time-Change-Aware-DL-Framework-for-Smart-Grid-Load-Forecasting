@@ -1,0 +1,3 @@
+# Store and check out every file byte for byte (no line-ending conversion), so that the
+# SHA-256 hashes in experiments/results_v3/FROZEN.txt can be verified on any operating system.
+* -text

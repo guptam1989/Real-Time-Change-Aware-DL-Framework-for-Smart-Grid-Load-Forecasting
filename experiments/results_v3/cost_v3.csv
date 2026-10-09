@@ -1,0 +1,9 @@
+component,ms
+"Online aggregation (14 experts, 24 horizons)",0.045521282590925694
+"Asymmetric ACI (24 horizons, window 720)",0.4661406930536032
+"RCAF-TFT forecast (24 h, batch 1)",3.932938603684306
+RCAF-TFT CPD-triggered fine-tuning,17674.598736688495
+"RCAF-TRF forecast (24 h, batch 1)",2.1601346228271723
+RCAF-TRF CPD-triggered fine-tuning,16886.365450918674
+"RCAF-GBM forecast (24 models, one origin)",6.002306193113327
+RCAF-GBM CPD-triggered update (50 trees x 24 models),7916.114155203104

@@ -1,0 +1,75 @@
+{
+ "RWD1|LSTM": {
+  "cfg": {
+   "d": 128,
+   "lr": 0.001,
+   "dropout": 0.2,
+   "alpha": 0.5
+  },
+  "val_mse": 0.290805846452713
+ },
+ "RWD1|GRU": {
+  "cfg": {
+   "d": 128,
+   "lr": 0.0003,
+   "dropout": 0.1,
+   "alpha": 0.5
+  },
+  "val_mse": 0.280546635389328
+ },
+ "RWD1|Transformer": {
+  "cfg": {
+   "d": 32,
+   "lr": 0.0003,
+   "dropout": 0.2,
+   "alpha": 0.5
+  },
+  "val_mse": 0.2868959903717041
+ },
+ "RWD1|DLinear": {
+  "cfg": {
+   "d": 32,
+   "lr": 0.001,
+   "dropout": 0.1,
+   "alpha": 0.5
+  },
+  "val_mse": 0.30607256293296814
+ },
+ "RWD1|PatchTST": {
+  "cfg": {
+   "d": 64,
+   "lr": 0.0003,
+   "dropout": 0.1,
+   "alpha": 0.5
+  },
+  "val_mse": 0.29466313123703003
+ },
+ "RWD1|TFT": {
+  "cfg": {
+   "d": 32,
+   "lr": 0.0003,
+   "dropout": 0.1,
+   "alpha": 0.5
+  },
+  "val_mse": 0.2841672897338867
+ },
+ "RWD1|RCAF": {
+  "cfg": {
+   "d": 64,
+   "lr": 0.0003,
+   "dropout": 0.2,
+   "highway": 1,
+   "alpha": 0.5
+  },
+  "val_mse": 0.29246795177459717
+ },
+ "RWD1|RCAF_v1": {
+  "cfg": {
+   "d": 64,
+   "lr": 0.0003,
+   "dropout": 0.1,
+   "alpha": 0.5
+  },
+  "val_mse": 0.2911706268787384
+ }
+}

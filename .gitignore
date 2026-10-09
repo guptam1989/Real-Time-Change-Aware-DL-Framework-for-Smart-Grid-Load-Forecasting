@@ -1,0 +1,25 @@
+# Downloaded data (recreated by experiments/data.py and experiments/data_heldout.py)
+experiments/data/
+
+# Intermediate outputs (several GB; recreated by the pipeline)
+experiments/cache/
+experiments/jobs/
+experiments/logs/
+experiments/results_v3/preds/
+experiments/results_v3/agg/
+experiments/results/preds/
+experiments/results/cpd_test_scores.pkl
+*.pt
+*.npz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

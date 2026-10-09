@@ -1,0 +1,4 @@
+dataset,n_series_test,length,cps_test,outliers_per_series
+SynD1,10,5000,196,15
+SynD2,10,5000,196,15
+SynD3,10,5000,196,15

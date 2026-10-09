@@ -1,0 +1,28 @@
+dataset,event,trigger,first_alarm,delay_h,alarms_test
+RWD2,cold wave Dec 2017 - Jan 2018,ae,2017-12-24 13:00:00,-35.0,7
+RWD2,cold wave Dec 2017 - Jan 2018,cusum,,,0
+RWD2,cold wave Dec 2017 - Jan 2018,bocpd,2018-01-20 21:00:00,621.0,14
+DE,COVID-19 contact ban,ae,2020-03-27 13:00:00,133.0,9
+DE,COVID-19 contact ban,cusum,2020-03-19 01:00:00,-71.0,20
+DE,COVID-19 contact ban,bocpd,,,3
+FR,COVID-19 lockdown,ae,2020-03-20 14:00:00,86.0,5
+FR,COVID-19 lockdown,cusum,2020-03-20 00:00:00,72.0,6
+FR,COVID-19 lockdown,bocpd,2020-04-20 11:00:00,827.0,9
+IT,COVID-19 lockdown,ae,,,9
+IT,COVID-19 lockdown,cusum,,,0
+IT,COVID-19 lockdown,bocpd,2020-05-01 06:00:00,1254.0,7
+ES,COVID-19 state of alarm,ae,2020-04-02 13:00:00,445.0,7
+ES,COVID-19 state of alarm,cusum,,,1
+ES,COVID-19 state of alarm,bocpd,,,2
+GB,COVID-19 lockdown,ae,2020-03-25 23:00:00,47.0,34
+GB,COVID-19 lockdown,cusum,2020-03-26 11:00:00,59.0,28
+GB,COVID-19 lockdown,bocpd,2020-03-21 16:00:00,-56.0,36
+ERCOT,Winter Storm Uri,ae,2021-02-14 08:00:00,32.0,10
+ERCOT,Winter Storm Uri,cusum,2021-02-27 11:00:00,347.0,2
+ERCOT,Winter Storm Uri,bocpd,2021-02-16 22:00:00,94.0,3
+CAISO,August 2020 heat wave,ae,2020-08-18 22:00:00,118.0,8
+CAISO,August 2020 heat wave,cusum,,,0
+CAISO,August 2020 heat wave,bocpd,2020-08-13 01:00:00,-23.0,4
+SPP,Winter Storm Uri,ae,2021-02-11 15:00:00,-33.0,7
+SPP,Winter Storm Uri,cusum,,,1
+SPP,Winter Storm Uri,bocpd,,,4

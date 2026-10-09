@@ -1,0 +1,20 @@
+{
+ "TFT-HW": {
+  "cfg": {
+   "d": 64,
+   "lr": 0.001,
+   "dropout": 0.1,
+   "highway": 1
+  },
+  "val_mse": 0.06238540634512901
+ },
+ "Transformer-HW": {
+  "cfg": {
+   "d": 64,
+   "lr": 0.001,
+   "dropout": 0.1,
+   "highway": 1
+  },
+  "val_mse": 0.047493260353803635
+ }
+}
