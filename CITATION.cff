@@ -1,14 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the paper listed under preferred-citation."
-title: "RCAF: real-time change-aware load forecasting for IoT-enabled smart grids"
+title: "RCAF: change-aware smart grid load forecasting with online expert aggregation and conformal prediction"
 type: software
 authors:
   - family-names: Gupta
     given-names: Muktesh
-  - family-names: Wadhvani
-    given-names: Rajesh
-  - family-names: Rasool
-    given-names: Akhtar
+  - family-names: Kumar
+    given-names: Pranjal
 repository-code: "https://github.com/guptam1989/Real-Time-Change-Aware-DL-Framework-for-Smart-Grid-Load-Forecasting"
 keywords:
   - load forecasting
@@ -19,13 +17,11 @@ keywords:
   - temporal fusion transformer
 preferred-citation:
   type: article
-  title: "A Real-Time Change-Aware Deep Learning Framework for Internet of Things-Enabled Smart Grid Load Forecasting"
+  title: "Change-Aware Smart Grid Load Forecasting with Online Expert Aggregation and Conformal Prediction"
   authors:
     - family-names: Gupta
       given-names: Muktesh
-    - family-names: Wadhvani
-      given-names: Rajesh
-    - family-names: Rasool
-      given-names: Akhtar
+    - family-names: Kumar
+      given-names: Pranjal
   year: 2026
   notes: "Manuscript under review"

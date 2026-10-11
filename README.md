@@ -1,16 +1,16 @@
-# RCAF: real-time change-aware load forecasting for IoT-enabled smart grids
+# RCAF: change-aware smart grid load forecasting with online expert aggregation and conformal prediction
 
 This repository contains the code, result tables and figures of the paper
 
-> M. Gupta, R. Wadhvani, A. Rasool. *A Real-Time Change-Aware Deep Learning Framework for Internet of
-> Things-Enabled Smart Grid Load Forecasting.* Manuscript under review, 2026.
+> M. Gupta, P. Kumar. *Change-Aware Smart Grid Load Forecasting with Online Expert Aggregation and Conformal Prediction.*
+> Manuscript under review, 2026.
 
 **RCAF** (Real-time Change-Aware Forecasting) forecasts hourly electricity load 1–24 h ahead from a data
 stream and gives 80 % prediction intervals. It also reacts to structural changes, such as pandemic
 lockdowns and extreme weather, that it detects online. All computations are causal: every quantity at
 hour *t* uses only data observed up to *t*.
 
-![Overview of RCAF](figures/fig_framework_v3.png)
+![Overview of RCAF](figures/methodology-landscape.png)
 
 ## Contents
 
@@ -33,7 +33,7 @@ hour *t* uses only data observed up to *t*.
 The change-aware TFT expert (variable selection, LSTM encoder–decoder, masked attention, quantile outputs
 and an autoregressive highway):
 
-![RCAF-TFT](figures/fig_rcaf_tft.png)
+![RCAF-TFT](figures/Figure_2.png)
 
 ## Data
 
@@ -168,8 +168,8 @@ If you use this code, please cite the paper:
 
 ```bibtex
 @article{gupta2026rcaf,
-  title   = {A Real-Time Change-Aware Deep Learning Framework for Internet of Things-Enabled Smart Grid Load Forecasting},
-  author  = {Gupta, Muktesh and Wadhvani, Rajesh and Rasool, Akhtar},
+  title   = {Change-Aware Smart Grid Load Forecasting with Online Expert Aggregation and Conformal Prediction},
+  author  = {Gupta, Muktesh and Kumar, Pranjal},
   note    = {Manuscript under review},
   year    = {2026}
 }
